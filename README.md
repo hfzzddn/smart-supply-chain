@@ -1,4 +1,4 @@
-# smat-supply-chain
+# smart-supply-chain
 
 **Author:** Mohamad Hafizzudin Bin Yahya
 
