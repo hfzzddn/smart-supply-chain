@@ -17,7 +17,14 @@
 **LinkedIn:** http://www.linkedin.com/in/mohamad-hafizzuddin
 
 Overview
-This project involves the design and implementation of a supply chain database. The database includes tables for categories, customers, products, orders, and order details. The goal is to maintain a structured and efficient database that can be used for managing and analyzing supply chain data.
+Develop a comprehensive smart supply chain system utilizing SQL Server Management Studio (SSMS), Power Query, and Tableau to manage and visualize supply chain data effectively.
+
+Tools Used:
+
+SSMS: For database creation,data cleaning, management, and data manipulation.
+Power Query: For data transformation and loading into Excel.
+Excel: For linking tables and further data manipulation.
+Tableau: For advanced data visualization.
 
 Database Schema
 The database schema consists of the following tables:
