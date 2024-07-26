@@ -1,7 +1,7 @@
 USE supply_chain;
 GO
 
-/*CREATE TABLE category (
+CREATE TABLE category (
 category_id int NOT NULL,
 category_name nvarchar(50) NOT NULL);
 
