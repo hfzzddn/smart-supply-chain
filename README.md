@@ -8,7 +8,7 @@
 
 **LinkedIn:** http://www.linkedin.com/in/mohamad-hafizzuddin
 
-**Tableu Public:** https://public.tableau.com/app/profile/hafiz.yahya/vizzes
+**Tableau Public:** https://public.tableau.com/app/profile/hafiz.yahya/vizzes
 
 Overview
 The Smart Supply Chain Database Project leverages SQL Server Management Studio (SSMS) and Tableau to create a robust system for managing and visualizing supply chain data. This project demonstrates how to integrate database management with advanced data visualization to provide actionable insights into supply chain operations.
