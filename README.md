@@ -8,6 +8,8 @@
 
 **LinkedIn:** http://www.linkedin.com/in/mohamad-hafizzuddin
 
+**Tableu Public:** https://public.tableau.com/app/profile/hafiz.yahya/vizzes
+
 Overview
 Develop a comprehensive smart supply chain system utilizing SQL Server Management Studio (SSMS) and Tableau to manage and visualize supply chain data effectively.
 
