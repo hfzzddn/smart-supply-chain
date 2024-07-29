@@ -11,7 +11,7 @@
 **Tableu Public:** https://public.tableau.com/app/profile/hafiz.yahya/vizzes
 
 Overview
-Develop a comprehensive smart supply chain system utilizing SQL Server Management Studio (SSMS) and Tableau to manage and visualize supply chain data effectively.
+The Smart Supply Chain Database Project leverages SQL Server Management Studio (SSMS) and Tableau to create a robust system for managing and visualizing supply chain data. This project demonstrates how to integrate database management with advanced data visualization to provide actionable insights into supply chain operations.
 
 Tools Used:
 
@@ -112,7 +112,7 @@ The database schema consists of the following tables:
 
 
 
-# **Tableau Public Analysis and Dashboard**
+# **Suspected Fraud Analysis Dashboard**
 
 **Overview**
 
