@@ -137,7 +137,7 @@ Insight: The Consumer segment has the highest number of fraud incidents.
 
 
 
-#**Tableau Dashboard Visuals**
+# **Tableau Dashboard Visuals**
 
 **Percentage of Suspected Fraud by Shipping Mode**
 **Visualization Type:** Bar Chart
@@ -153,6 +153,8 @@ Same Day: 5.39%
 
 ![Percentage of suspected fraud by shipping mode](https://github.com/user-attachments/assets/7618f4e1-dbb3-4a06-8b7e-5e95d732e6aa)
 
+
+
 **Suspected Fraud Trend by Year**
 **Visualization Type: Line Chart**
 
@@ -164,6 +166,8 @@ Significant peaks in fraud incidents observed in certain periods.
 Overall trend shows fluctuations from 2014 to 2018.
 
 ![Suspected Fraud Trend by Year](https://github.com/user-attachments/assets/9fcb7f99-5b95-4e3b-a1ef-b87a18077ac4)
+
+
 
 
 **Top Product Fraud and Loss Analysis**
@@ -179,6 +183,8 @@ Other top products include codes 957, 403, 1073, and 365.
 ![Top Product Fraud and Loss Analysis](https://github.com/user-attachments/assets/0326993f-574b-462c-849b-ba89dd8dc648)
 
 
+
+
 **Percentage of Suspected Fraud By Customer Segment**
 **Visualization Type: Pie Chart**
 
@@ -190,6 +196,8 @@ Consumer segment has the highest number of fraud incidents.
 Other segments include Corporate and Home Office.
 
 ![Percentage of Suspected Fraud by Customer Segment](https://github.com/user-attachments/assets/1bc2c722-732b-455c-a1ac-db4438ee136f)
+
+
 
 **Connecting SSMS and Tableau Public via Excel**
 
@@ -210,3 +218,8 @@ The visualizations are arranged into a cohesive dashboard that provides insights
 **Conclusion**
 
 This project demonstrates the integration of SSMS, Excel, and Tableau Public to analyze and visualize supply chain data. The resulting dashboard provides valuable insights into patterns of suspected fraud, helping to identify and address potential issues within the supply chain.
+
+# **Suspected Fraud Analysis Dashboard**
+
+![Suspected Analysis Dashboard](https://github.com/user-attachments/assets/ebf44127-e359-4698-a47a-1e21d1c89f57)
+
