@@ -112,3 +112,89 @@ The database schema consists of the following tables:
 
 ![ERD](https://github.com/user-attachments/assets/178da265-9249-453d-9b31-606bce2ec2bb)
 
+
+
+# **Tableau Public Analysis and Dashboard**
+
+Overview
+The Tableau Public dashboard provides insights into suspected fraud within the supply chain data. It includes various visualizations that help in understanding the trends and patterns of fraud over time.
+
+Dashboard Components
+Shipping Class Distribution
+
+Description: This bar chart displays the distribution of fraud incidents by shipping class.
+Insight: The majority of fraud incidents are associated with the Standard Class (59.28%).
+Fraud Trend by Year
+
+Description: This line chart shows the trend of fraud incidents over the years from 2014 to 2018.
+Insight: There are noticeable fluctuations and peaks in fraud incidents over the years.
+Product Code with Most Fraud
+
+Description: This bar chart lists the top product codes associated with the most fraud incidents.
+Insight: Product code 1004 has the highest number of fraud incidents.
+Customer Segment Distribution
+
+Description: This pie chart shows the distribution of fraud incidents by customer segment.
+Insight: The Consumer segment has the highest number of fraud incidents.
+
+**Tableau Dashboard Visuals**
+
+**Shipping Class Distribution**
+**Visualization Type:** Bar Chart
+
+**Fields Used:**
+Dimensions: Shipping Class
+Measures: Count of Fraud Incidents
+Insights:
+Standard Class: 59.28%
+Second Class: 18.44%
+First Class: 16.89%
+Same Day: 5.39%
+
+**Fraud Trend by Year**
+**Visualization Type: Line Chart**
+
+Fields Used:
+Dimensions: Year
+Measures: Count of Fraud Incidents
+Insights:
+Significant peaks in fraud incidents observed in certain periods.
+Overall trend shows fluctuations from 2014 to 2018.
+
+**Product Code with Most Fraud**
+**Visualization Type: Bar Chart**
+
+Fields Used:
+Dimensions: Product Code
+Measures: Count of Fraud Incidents
+Insights:
+Product code 1004 has the highest number of fraud incidents.
+Other top products include codes 957, 403, 1073, and 365.
+
+**Customer Segment Distribution**
+**Visualization Type: Pie Chart**
+
+Fields Used:
+Dimensions: Customer Segment
+Measures: Count of Fraud Incidents
+Insights:
+Consumer segment has the highest number of fraud incidents.
+Other segments include Corporate and Home Office.
+
+**Connecting SSMS and Tableau Public via Excel**
+
+Exporting Data from SSMS:
+Data from the SSMS database is exported to Excel using the Export Data feature in SSMS.
+Using Excel as an Intermediary:
+Excel is used as an intermediary connection to link SSMS data to Tableau Public.
+Connecting Excel to Tableau Public:
+The Excel file with the exported data is then imported into Tableau Public as a data source.
+
+**Creating Visualizations:**
+Various visualizations are created in Tableau Public using the imported data.
+Building the Dashboard:
+The visualizations are arranged into a cohesive dashboard that provides insights into suspected fraud patterns.
+
+**Conclusion**
+
+This project demonstrates the integration of SSMS, Excel, and Tableau Public to analyze and visualize supply chain data. The resulting dashboard provides valuable insights into patterns of suspected fraud, helping to identify and address potential issues within the supply chain.
