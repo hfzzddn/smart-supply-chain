@@ -11,21 +11,31 @@
 **Tableau Public:** https://public.tableau.com/app/profile/hafiz.yahya/vizzes
 
 Overview
-The Smart Supply Chain Database Project leverages SQL Server Management Studio (SSMS) and Tableau to create a robust system for managing and visualizing supply chain data. This project demonstrates how to integrate database management with advanced data visualization to provide actionable insights into supply chain operations.
-
+The Smart Supply Chain Database Project integrates SQL Server Management Studio (SSMS) and Tableau to build a robust system for managing and visualizing supply chain data. The project focuses on data normalization, ETL processes, and advanced data visualization to provide actionable insights into supply chain operations.
 Tools Used:
 
-**SQL Server Management Studio:** For database creation,data cleaning, management, and data manipulation.
+**SQL Server Management Studio:** For database creation, data cleaning, management, and data manipulation.
 
 **Power Query:** For data transformation and loading into Excel.
 
 **Excel:** For linking tables and further data manipulation.
 
-**Tableau:** For advanced data visualization.
+**Tableau:** For creating interactive and insightful data visualizations.
 
-**Database Schema**
+# **ETL Process**
 
-The database schema consists of the following tables:
+**1. Extract**
+Data was extracted from the raw dataset, sourced from [Kaggle - DataCo Smart Supply Chain](https://www.kaggle.com/datasets/alinoranianesfahani/dataco-smart-supply-chain-for-big-data-analysis).
+
+**2. Transform**
+Data was transformed using SQL Server Management Studio and Power Query to clean and normalize it into a structured format. This process involved:
+
+- Removing duplicates.
+- Splitting data into relevant tables.
+- Ensuring data integrity and consistency.
+  
+**3. Load**
+The transformed data was loaded into SQL Server, where it was normalized into six distinct tables:
 
 
 ### `category`
@@ -104,7 +114,6 @@ The database schema consists of the following tables:
 | product_image  | nvarchar(100) | URL of the product image                 |
 
 
-**Dataset:** https://www.kaggle.com/datasets/alinoranianesfahani/dataco-smart-supply-chain-for-big-data-analysis
 
 **Entity Relationship Diagram**
 
