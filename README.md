@@ -12,7 +12,8 @@
 
 Overview
 The Smart Supply Chain Database Project integrates SQL Server Management Studio (SSMS) and Tableau to build a robust system for managing and visualizing supply chain data. The project focuses on data normalization, ETL processes, and advanced data visualization to provide actionable insights into supply chain operations.
-Tools Used:
+
+**Tools Used:**
 
 **SQL Server Management Studio:** For database creation, data cleaning, management, and data manipulation.
 
@@ -25,7 +26,7 @@ Tools Used:
 # **ETL Process**
 
 **1. Extract**
-Data was extracted from the raw dataset, sourced from [Kaggle - DataCo Smart Supply Chain](https://www.kaggle.com/datasets/alinoranianesfahani/dataco-smart-supply-chain-for-big-data-analysis).
+Data was extracted from the raw dataset sourced from [Kaggle - DataCo Smart Supply Chain](https://www.kaggle.com/datasets/alinoranianesfahani/dataco-smart-supply-chain-for-big-data-analysis).
 
 **2. Transform**
 Data was transformed using SQL Server Management Studio and Power Query to clean and normalize it into a structured format. This process involved:
@@ -121,30 +122,30 @@ The transformed data was loaded into SQL Server, where it was normalized into si
 
 
 
-# **Suspected Fraud Analysis Dashboard**
+## **Suspected Fraud Analysis Dashboard**
 
 **Overview**
 
 The Tableau Public dashboard provides insights into suspected fraud within the supply chain data. It includes various visualizations that help in understanding the trends and patterns of fraud over time.
 
-**Dashboard Components**
+### Dashboard Components
 
-**Percentage of Suspected Fraud by Shipping Mode**
-Description: This bar chart displays the distribution of fraud incidents by shipping class.
-Insight: The majority of fraud incidents are associated with the Standard Class (59.28%).
+#### Percentage of Suspected Fraud by Shipping Mode
+**Description:** This bar chart displays the distribution of fraud incidents by shipping class.
+**Insight:** The majority of fraud incidents are associated with the Standard Class (59.28%).
 
 
-**Suspected Fraud Trend by Year**
-Description: This line chart shows the trend of fraud incidents over the years from 2014 to 2018.
-Insight: There are noticeable fluctuations and peaks in fraud incidents over the years.
+#### Suspected Fraud Trend by Year
+**Description:** This line chart shows the trend of fraud incidents over the years from 2014 to 2018.
+**Insight:** There are noticeable fluctuations and peaks in fraud incidents over the years.
 
-**Top Product Fraud and Loss Analysis**
-Description: This bar chart lists the top product codes associated with the most fraud incidents.
-Insight: Product code 1004 has the highest number of fraud incidents.
+#### Top Product Fraud and Loss Analysis
+**Description:** This bar chart lists the top product codes associated with the most fraud incidents.
+**Insight:** Product code 1004 has the highest number of fraud incidents.
 
-**Percentage of Suspected Fraud By Customer Segment**
-Description: This pie chart shows the distribution of fraud incidents by customer segment.
-Insight: The Consumer segment has the highest number of fraud incidents.
+#### Percentage of Suspected Fraud By Customer Segment
+**Description:** This pie chart shows the distribution of fraud incidents by customer segment.
+**Insight:** The Consumer segment has the highest number of fraud incidents.
 
 
 
