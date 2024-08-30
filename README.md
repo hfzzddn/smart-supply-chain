@@ -12,15 +12,15 @@
 
 **Overview**
 
-The Smart Supply Chain Database Project integrates SQL Server Management Studio (SSMS) and Tableau to build a robust system for managing and visualizing supply chain data. The project focuses on data normalization, ETL processes, and advanced data visualization to provide actionable insights into supply chain operations.
+The Smart Supply Chain Database Project integrates SQL Server Management Studio (SSMS) and Tableau to build a robust system for managing and visualizing supply chain data. The project focuses on data normalization, Extract,Transfrom and Load(ETL)  processes, and advanced data visualization to provide actionable insights into supply chain operations.
 
 **Tools Used:**
 
-**SQL Server Management Studio:** For database creation, data cleaning, management, and data manipulation.
+**SQL Server Management Studio:** For database creation, data cleaning,data management,data normalization and data manipulation.
 
 **Power Query:** For data transformation and loading into Excel.
 
-**Excel:** For linking tables and further data manipulation.
+**Excel:** Act as a link between SQL Sever Management Studio(SSMS) and Tableau Public.
 
 **Tableau:** For creating interactive and insightful data visualizations.
 
@@ -30,7 +30,7 @@ The Smart Supply Chain Database Project integrates SQL Server Management Studio 
 Data was extracted from the raw dataset sourced from [Kaggle - DataCo Smart Supply Chain](https://www.kaggle.com/datasets/alinoranianesfahani/dataco-smart-supply-chain-for-big-data-analysis).
 
 **2. Transform**
-Data was transformed using SQL Server Management Studio and Power Query to clean and normalize it into a structured format. This process involved:
+Using SQL Server Management STudio, the data is clean and normalize it into a structured format. This process involved:
 
 - Removing duplicates.
 - Splitting data into relevant tables.
