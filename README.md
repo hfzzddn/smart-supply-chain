@@ -30,9 +30,8 @@ The Smart Supply Chain Database Project integrates SQL Server Management Studio 
 Data was extracted from the raw dataset sourced from [Kaggle - DataCo Smart Supply Chain](https://www.kaggle.com/datasets/alinoranianesfahani/dataco-smart-supply-chain-for-big-data-analysis).
 
 **2. Transform**
-Using SQL Server Management STudio, the data is clean and normalize it into a structured format. This process involved:
+Using SQL Server Management STudio, the data is normalize it into a structured format. This process involved:
 
-- Removing duplicates.
 - Splitting data into relevant tables.
 - Ensuring data integrity and consistency.
   
