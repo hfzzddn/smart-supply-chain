@@ -8,21 +8,13 @@
 
 **LinkedIn:** http://www.linkedin.com/in/mohamad-hafizzuddin
 
-**Tableau Public:** https://public.tableau.com/app/profile/hafiz.yahya/vizzes
-
 **Overview**
 
-The Smart Supply Chain Database Project integrates SQL Server Management Studio (SSMS) and Tableau to build a robust system for managing and visualizing supply chain data. The project focuses on data normalization, Extract,Transfrom and Load(ETL)  processes, and advanced data visualization to provide actionable insights into supply chain operations.
+The Smart Supply Chain Database Project integrates SQL Server Management Studio (SSMS) to build a system for managing supply chain dataset. The project focuses on data cleaning, data normalization, data transfromation and ETL processes.
 
 **Tools Used:**
 
 **SQL Server Management Studio:** For database creation, data cleaning,data management,data normalization and data manipulation.
-
-**Power Query:** For data transformation and loading into Excel.
-
-**Excel:** Act as a link between SQL Sever Management Studio(SSMS) and Tableau Public.
-
-**Tableau:** For creating interactive and insightful data visualizations.
 
 # **ETL Process**
 
@@ -120,118 +112,4 @@ The transformed data was loaded into SQL Server, where it was normalized into si
 
 ![ERD](https://github.com/user-attachments/assets/178da265-9249-453d-9b31-606bce2ec2bb)
 
-
-
-## **Suspected Fraud Analysis Dashboard**
-
-**Overview**
-
-The Tableau Public dashboard provides insights into suspected fraud within the supply chain data. It includes various visualizations that help in understanding the trends and patterns of fraud over time.
-
-### Dashboard Components
-
-#### Percentage of Suspected Fraud by Shipping Mode
-**Description:** This bar chart displays the distribution of fraud incidents by shipping class.
-**Insight:** The majority of fraud incidents are associated with the Standard Class (59.28%).
-
-
-#### Suspected Fraud Trend by Year
-**Description:** This line chart shows the trend of fraud incidents over the years from 2014 to 2018.
-**Insight:** There are noticeable fluctuations and peaks in fraud incidents over the years.
-
-#### Top Product Fraud and Loss Analysis
-**Description:** This bar chart lists the top product codes associated with the most fraud incidents.
-**Insight:** Product code 1004 has the highest number of fraud incidents.
-
-#### Percentage of Suspected Fraud By Customer Segment
-**Description:** This pie chart shows the distribution of fraud incidents by customer segment.
-**Insight:** The Consumer segment has the highest number of fraud incidents.
-
-
-
-# **Tableau Dashboard Visuals**
-
-**Percentage of Suspected Fraud by Shipping Mode**
-**Visualization Type:** Bar Chart
-
-**Fields Used:**
-Dimensions: Shipping Class
-Measures: Count of Fraud Incidents
-Insights:
-Standard Class: 59.28%
-Second Class: 18.44%
-First Class: 16.89%
-Same Day: 5.39%
-
-![Percentage of suspected fraud by shipping mode](https://github.com/user-attachments/assets/7618f4e1-dbb3-4a06-8b7e-5e95d732e6aa)
-
-
-
-**Suspected Fraud Trend by Year**
-**Visualization Type: Line Chart**
-
-Fields Used:
-Dimensions: Year
-Measures: Count of Fraud Incidents
-Insights:
-Significant peaks in fraud incidents observed in certain periods.
-Overall trend shows fluctuations from 2014 to 2018.
-
-![Suspected Fraud Trend by Year](https://github.com/user-attachments/assets/9fcb7f99-5b95-4e3b-a1ef-b87a18077ac4)
-
-
-
-
-**Top Product Fraud and Loss Analysis**
-**Visualization Type: Bar Chart**
-
-Fields Used:
-Dimensions: Product Code
-Measures: Count of Fraud Incidents
-Insights:
-Product code 1004 has the highest number of fraud incidents.
-Other top products include codes 957, 403, 1073, and 365.
-
-![Top Product Fraud and Loss Analysis](https://github.com/user-attachments/assets/0326993f-574b-462c-849b-ba89dd8dc648)
-
-
-
-
-**Percentage of Suspected Fraud By Customer Segment**
-**Visualization Type: Pie Chart**
-
-Fields Used:
-Dimensions: Customer Segment
-Measures: Count of Fraud Incidents
-Insights:
-Consumer segment has the highest number of fraud incidents.
-Other segments include Corporate and Home Office.
-
-![Percentage of Suspected Fraud by Customer Segment](https://github.com/user-attachments/assets/1bc2c722-732b-455c-a1ac-db4438ee136f)
-
-
-
-**Connecting SSMS and Tableau Public via Excel**
-
-**Exporting Data from SSMS:**
-Data from the SSMS database is exported to Excel using the Export Data feature in SSMS.
-
-**Using Excel as an Intermediary:**
-Excel is used as an intermediary connection to link SSMS data to Tableau Public.
-
-**Connecting Excel to Tableau Public:**
-The Excel file with the exported data is then imported into Tableau Public as a data source.
-
-**Creating Visualizations:**
-Various visualizations are created in Tableau Public using the imported data.
-Building the Dashboard:
-The visualizations are arranged into a cohesive dashboard that provides insights into suspected fraud patterns.
-
-**Conclusion**
-
-This project demonstrates the integration of SSMS, Excel, and Tableau Public to analyze and visualize supply chain data. The resulting dashboard provides valuable insights into patterns of suspected fraud, helping to identify and address potential issues within the supply chain.
-
-# **Suspected Fraud Analysis Dashboard**
-
-![Suspected Analysis Dashboard](https://github.com/user-attachments/assets/ebf44127-e359-4698-a47a-1e21d1c89f57)
 
